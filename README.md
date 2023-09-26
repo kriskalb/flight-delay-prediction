@@ -28,7 +28,7 @@ scipy: scipy is used for scientific and statistical computations.
 ## Installation Instructions
 To run this project locally, follow these steps:
 
-Clone the repository: git clone 'https://github.com/your-username/flight-delay-prediction'
+Clone the repository: git clone 'https://github.com/kriskalb/flight-delay-prediction'
 Navigate to the project directory: cd flight-delay-prediction
 Install the required Python packages: pip install -r requirements.txt
 Run the Jupyter Notebook or Python script to train and test the models.
