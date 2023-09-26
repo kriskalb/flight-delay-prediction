@@ -1,19 +1,25 @@
 # Flight Delay Prediction Project
 ## Overview
-This project is focused on predicting flight delays based on data related to flights in the United States during the year 2015. We will clean and preprocess the dataset, apply various regression models, and evaluate their performance.
+This project is dedicated to predicting flight delays based on data related to flights in the United States during the year 2015. We've undertaken two primary tasks in this project: regression prediction of ARRIVAL_DELAY and classification prediction of ARRIVAL_DELAY (True/False).
+
+We will meticulously clean and preprocess the dataset to ensure it meets the requirements of both tasks. Additionally, we will apply a variety of regression and classification models, assessing their performance for each prediction type.
 
 ## Project Goals
-The primary objectives of this project include:
+The key objectives of this project encompass:
 
-Developing an accurate machine learning model for predicting flight delays using flight-related features.
-Gaining practical experience in data preprocessing, feature engineering, and regression modeling within the domain of data science and machine learning.
+Building an accurate machine learning model for regression, specifically for predicting ARRIVAL_DELAY based on flight-related features.
+Developing a robust classification model to predict whether a flight will experience a delay (ARRIVAL_DELAY) or not.
+Gaining hands-on experience in data preprocessing, feature engineering, and modeling within the field of data science and machine learning.
 ## Main Features
-Data Preprocessing: We perform data cleaning to handle missing values and outliers.
-Feature Engineering: Creating new features and transforming existing ones to enhance model performance.
-Regression Models: We implement regression models, including but not limited to:
+Our project encompasses the following key components:
+
+Data Preprocessing: We perform comprehensive data cleaning to address missing values and outliers, ensuring data quality for both regression and classification tasks.
+Feature Engineering: We engage in feature engineering to create new attributes and transform existing ones, thereby enhancing the predictive power of our models.
+Regression Models: For predicting ARRIVAL_DELAY, we implement various regression models, including, but not limited to:
 Linear Regression
 Decision Trees Regression
-Random Forest Regression
+xgboost Regressor
+Classification Models: To classify flights as delayed or not, we explore classification models such as Logistic Regression, Decision Trees, and Random Forest Classification.
 ## Technologies Used
 This project utilizes several key libraries and technologies:
 
@@ -25,6 +31,7 @@ optuna: optuna is used for hyperparameter optimization.
 cartopy: cartopy is utilized for geospatial data visualization.
 matplotlib: matplotlib is used for creating plots and visualizations.
 scipy: scipy is used for scientific and statistical computations.
+xgboost etc.
 ## Installation Instructions
 To run this project locally, follow these steps:
 
@@ -32,6 +39,7 @@ Clone the repository: git clone 'https://github.com/kriskalb/flight-delay-predic
 Navigate to the project directory: cd flight-delay-prediction
 Install the required Python packages: pip install -r requirements.txt
 Run the Jupyter Notebook or Python script to train and test the models.
+Download datasets from https://www.kaggle.com/code/abhishek211119/2015-flight-delays-and-cancellation-prediction
 ## Authors
 kriskalb
 ## License
