@@ -40,6 +40,7 @@ Navigate to the project directory: cd flight-delay-prediction
 Install the required Python packages: pip install -r requirements.txt
 Run the Jupyter Notebook or Python script to train and test the models.
 Download datasets from https://www.kaggle.com/code/abhishek211119/2015-flight-delays-and-cancellation-prediction
+It is recommended to run the project in Google Colab
 ## Authors
 kriskalb
 ## License
