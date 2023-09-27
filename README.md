@@ -48,4 +48,4 @@ kriskalb
 ## License
 This project is open-source.
 
-Feel free to replace "Your Name" in the Authors section with your name or the names of any collaborators. You can also replace the GitHub repository URL with your project's URL.
+Feel free to replace "kriskalb" in the Authors section with your name or the names of any collaborators. You can also replace the GitHub repository URL with your project's URL.
